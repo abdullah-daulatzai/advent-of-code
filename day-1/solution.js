@@ -2,8 +2,8 @@ import fs from 'fs'
 
 try {
   // Try reading the files
-  let input = fs.readFileSync('./input.txt', 'utf-8')
-  let dempInput = fs.readFileSync('./demo-input.txt', 'utf-8')
+  let input = fs.readFileSync('day-1/input.txt', 'utf-8')
+  let dempInput = fs.readFileSync('day-1/demo-input.txt', 'utf-8')
 
   let rightList = []
   let leftList = []
